@@ -1,0 +1,6 @@
+<%-: 'a.png' | img %>
+<ul>
+  <% users.forEach(function (user) {%>
+    <li><%=: user.name | downcase %></li>
+  <% })%>
+</ul>
